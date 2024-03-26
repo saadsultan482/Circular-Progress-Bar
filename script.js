@@ -29,7 +29,7 @@ let number1 = document.getElementById('number1');
             else {
                 counter2 += 1;
                 number2.innerHTML = counter2 + '%';
-                backEndCircle.style.strokeDashoffset = 472 - (472 * counter2) / 100;
+                backEndCircle.style.strokeDashoffset = 435 - (435 * counter2) / 100;
             }
         }, 30);
 
@@ -40,6 +40,6 @@ let number1 = document.getElementById('number1');
             else {
                 counter3 += 1;
                 number3.innerHTML = counter3 + '%';
-                dataBaseCircle.style.strokeDashoffset = 472 - (472 * counter3) / 100;
+                dataBaseCircle.style.strokeDashoffset = 435 - (435 * counter3) / 100;
             }
         }, 30);
